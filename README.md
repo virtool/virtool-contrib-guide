@@ -22,19 +22,42 @@ These online courses will help you understand the basics of the technologies use
 
 1. [React Docs](https://reactjs.org/docs/hello-world.html)
 
-   It is not necessary to follow the official React tutorial if you have already completed the Codecademy courses for React. The most important content for our purposes is in the [ADVANCED GUIDES](https://reactjs.org/docs/jsx-in-depth.html) section. Make sure you understand the following items found there:
+   It is not necessary to follow the official React tutorial if you have already completed the Codecademy courses for React. The most important content for our purposes is in the [**ADVANCED GUIDES**](https://reactjs.org/docs/jsx-in-depth.html) section. Make sure you understand the following items found there:
 
    - JSX In Depth
    - Refs and the DOM
    - Reconciliation
    - Fragments
    - Error Boundaries
+
+2. [React-Router](https://reacttraining.com/react-router/web)
+
    
-1. [Redux Docs](https://redux.js.org/)
+   
+3. [Redux](https://redux.js.org/)
 
-   Redux is used for state management. React components
+   Redux is used for state management. Many React components in the Virtool client take state from a central Redux data store. 
 
-2. [Redux-Saga Docs](https://redux-saga.js.org/)
-2. [Travis CI Core Concepts](https://docs.travis-ci.com/user/for-beginners)
-3. []
+   Relevant sections of the Redux docs are:
+
+   - [Introduction](https://redux.js.org/docs/introduction/)
+   - [Basics](https://redux.js.org/docs/basics/)
+   - Recipes
+       - [Using Object Spread Operator](https://redux.js.org/docs/recipes/UsingObjectSpreadOperator.html)
+       - [Reducing Boilerplate](https://redux.js.org/docs/recipes/ReducingBoilerplate.html) \(ignore async action creators \)
+       - [Writing Tests](https://redux.js.org/docs/recipes/WritingTests.html) \(ignore async action creators \)
+       - [Structuring Reducers](https://redux.js.org/docs/recipes/StructuringReducers.html)
+
+4. [Redux-Saga](https://redux-saga.js.org/)
+
+   Redux is 
+
+5. [Virtool Web API](https://docs.virtool.ca/development/api/)
+
+## Style
+
+### Javascript and JSX
+
+1. Modal Routing
+
 
