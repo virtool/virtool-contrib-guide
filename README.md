@@ -20,7 +20,7 @@ These online courses will help you understand the basics of the technologies use
 
 ### Recommended Reading
 
-1. [React Docs](https://reactjs.org/docs/hello-world.html)
+1. [**React**](https://reactjs.org/docs/hello-world.html)
 
    It is not necessary to follow the official React tutorial if you have already completed the Codecademy courses for React. The most important content for our purposes is in the [**ADVANCED GUIDES**](https://reactjs.org/docs/jsx-in-depth.html) section. Make sure you understand the following items found there:
 
@@ -30,11 +30,11 @@ These online courses will help you understand the basics of the technologies use
    - Fragments
    - Error Boundaries
 
-2. [React-Router](https://reacttraining.com/react-router/web)
+2. [**React-Router**](https://reacttraining.com/react-router/web)
 
    
    
-3. [Redux](https://redux.js.org/)
+3. [**Redux**](https://redux.js.org/)
 
    Redux is used for state management. Many React components in the Virtool client take state from a central Redux data store. 
 
@@ -42,17 +42,17 @@ These online courses will help you understand the basics of the technologies use
 
    - [Introduction](https://redux.js.org/docs/introduction/)
    - [Basics](https://redux.js.org/docs/basics/)
-   - Recipes
+   - [Recipes](https://redux.js.org/docs/recipes/)
        - [Using Object Spread Operator](https://redux.js.org/docs/recipes/UsingObjectSpreadOperator.html)
        - [Reducing Boilerplate](https://redux.js.org/docs/recipes/ReducingBoilerplate.html) \(ignore async action creators \)
        - [Writing Tests](https://redux.js.org/docs/recipes/WritingTests.html) \(ignore async action creators \)
        - [Structuring Reducers](https://redux.js.org/docs/recipes/StructuringReducers.html)
 
-4. [Redux-Saga](https://redux-saga.js.org/)
+4. [**Redux-Saga**](https://redux-saga.js.org/)
 
    Redux is 
 
-5. [Virtool Web API](https://docs.virtool.ca/development/api/)
+5. [**Virtool Web API**](https://docs.virtool.ca/development/api/)
 
 ## Style
 
