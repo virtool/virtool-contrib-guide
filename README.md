@@ -95,7 +95,7 @@ These online courses will help you understand the basics of the technologies use
 ### 2. Objects
 
 - Use literal syntax for object creation  .
-  ```
+  ```javascript
   // use
   const item = {};
 
@@ -104,7 +104,7 @@ These online courses will help you understand the basics of the technologies use
   ```
 
 - Use property shorthand.
-  ```
+  ```javascript
   const value = "foobar";
   
   // use
@@ -119,7 +119,7 @@ These online courses will help you understand the basics of the technologies use
   ```
 
 - Group shorthand properties at beginning of object declaration.
-  ```
+  ```javascript
   const index = 0;
   const value = 2;
   const itemLabel = "a number";
@@ -132,7 +132,7 @@ These online courses will help you understand the basics of the technologies use
   ```
 
 - Only quote properties when necessary.
-  ```
+  ```javascript
   const item = {
       "item-values": [0, 1, 2],
       label: "foobar"
@@ -142,15 +142,15 @@ These online courses will help you understand the basics of the technologies use
 ### 3. JSX
 
 - use the spread operator when possible
-  ```
+  ```javascript
   const element = <Item {...props} />;
   ```
 - leave a space at the end of one-line element definitions
-  ```
+  ```javascript
   const element = <SampleItem name="Test" />
   ```
 - split long element definitions across multiple lines
-  ```
+  ```javascript
   const element = (
       <SampleList
           samples={sampleItems}
