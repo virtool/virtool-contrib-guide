@@ -84,3 +84,78 @@ These online courses will help you understand the basics of the technologies use
 
    - [Installation](https://yarnpkg.com/en/docs/install)
    - [Usage](https://yarnpkg.com/en/docs/usage)
+
+## Javascript Style Guide
+
+### 1. References
+
+- Use ``const`` whenever possible. Use ``let`` otherwise.
+- Don't use ``var``.
+
+### 2. Objects
+
+- Use literal syntax for object creation  .
+  ```
+  // use
+  const item = {};
+
+  // not
+  const item = new Object();
+  ```
+
+- Use property shorthand.
+  ```
+  const value = "foobar";
+  
+  // use
+  const item = {
+      value
+  };
+
+  // not
+  const item = {
+      value: value
+  };
+  ```
+
+- Group shorthand properties at beginning of object declaration.
+  ```
+  const index = 0;
+  const value = 2;
+  const itemLabel = "a number";
+
+  const item = {
+      index
+      value,
+      label: itemLabel
+  }
+  ```
+
+- Only quote properties when necessary.
+  ```
+  const item = {
+      "item-values": [0, 1, 2],
+      label: "foobar"
+  };
+  ```
+
+### 3. JSX
+
+- use the spread operator when possible
+  ```
+  const element = <Item {...props} />;
+  ```
+- leave a space at the end of one-line element definitions
+  ```
+  const element = <SampleItem name="Test" />
+  ```
+- split long element definitions across multiple lines
+  ```
+  const element = (
+      <SampleList
+          samples={sampleItems}
+          show
+      >
+  );
+  ```
+- 
