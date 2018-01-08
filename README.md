@@ -242,7 +242,7 @@ _Adapted from [Airbnb Javascript Style Guide](https://github.com/airbnb/javascri
 
 ### 7. Functions
 
-- Use default parameter syntax rather than mutating function arguments.
+- Use default parameter syntax. Don't mutate function arguments.
   ```javascript
   // use
   function addFive (value = 0) {
@@ -255,6 +255,20 @@ _Adapted from [Airbnb Javascript Style Guide](https://github.com/airbnb/javascri
   }
   ```
 
+- Don't mutate object argument properties
+  ```javascript
+  // use
+  function foobar (obj) {
+      return {...obj, a: 1};
+  }
+
+  // not
+  function foobar (obj) {
+      obj.a = 1;
+      return obj;
+  }
+  ```
+
 - Put default parameters last.
   ```javascript
   function addValue (number, value = 0) {
@@ -264,9 +278,16 @@ _Adapted from [Airbnb Javascript Style Guide](https://github.com/airbnb/javascri
 
 - Use prescribed spacing in function signature.
   ```javascript
-  const f = 
-  ```
+  // use
+  const f = function () {}
 
+  // not
+  const f = function() {}
+
+  // or
+  const f = function (){}
+  ```
+  
 ### 3. JSX
 
 - use the spread operator when possible
