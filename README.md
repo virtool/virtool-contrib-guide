@@ -87,6 +87,8 @@ These online courses will help you understand the basics of the technologies use
 
 ## Javascript Style Guide
 
+_Adapted from [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript)_
+
 ### 1. References
 
 - Use ``const`` whenever possible. Use ``let`` otherwise.
@@ -137,6 +139,132 @@ These online courses will help you understand the basics of the technologies use
       "item-values": [0, 1, 2],
       label: "foobar"
   };
+  ```
+
+- Prefer object spread over ``assign()``.
+  ```javascript
+  const item = {
+      a: 1,
+      b: 2
+  };
+
+  const updated = {...item, c: 3};
+  ```
+
+### 4. Arrays
+
+- Use spreads to copy arrays.
+  ```javascript
+  const items = [1, 2, 3, 4];
+
+  const copied = [...items];
+  ```
+
+- Use line breaks after open and before close array brackets if an array has multiple lines.
+  ```javascript
+  const items = [
+      1,
+      2,
+      3,
+      4
+  ];
+  ```
+
+- Convert iterables to Arrays using spreads.
+  ```javascript
+  const nodes = [...document.querySelectorAll('.foo')];
+  ```
+
+- Use ``Array.from`` to map over iterables.
+  ```javascript
+  // use
+  const baz = Array.from(foo, bar);
+
+  // not
+  const baz = [...foo].map(bar);  
+  ```
+
+### 5. Destructuring
+
+- Use object desctructuring to access multiple properties of objects.
+  ```javascript
+  const user = {
+      first: "Foo",
+      last: "Bar"
+  };
+
+  // use (best)
+  function getFull ({ first, last }) {
+      return `${first} ${last}`;
+  }
+
+  // or
+  function getFull (user) {
+      const { first, last } = user;
+      return `${first} ${last}`; 
+  }
+
+  // not
+  function getFull (user) {
+      return `${user.first} ${user.last}`;
+  }
+  ```
+
+- Use array destructuring
+  ```javascript
+  const numbers = [1, 2, 3, 4];
+
+  // use
+  const [ first, second ] = numbers;
+
+  // not
+  const first = numbers[0];
+  const second = numbers[1];
+  ```
+
+### 6. Strings
+
+- Use double quotes
+  ```javascript
+  const foo = "test";
+  ```
+
+- Use template strings, not concatenation.
+  ```javascript
+  const name = "Bob";
+
+  // use
+  const greeting = `Hello, my name is ${name}`;
+
+  // not
+  const greeting = "Hello, my name is " + name;
+  ```
+
+### 7. Functions
+
+- Use default parameter syntax rather than mutating function arguments.
+  ```javascript
+  // use
+  function addFive (value = 0) {
+      return 5 + value;
+  }
+
+  // not
+  function addFive (value) {
+      return 5 + (value || 0);
+  }
+  ```
+
+- Put default parameters last.
+  ```javascript
+  function addValue (number, value = 0) {
+      return number + value;
+  }
+  ```
+
+- Use prescribed spacing in function signature.
+  ```javascript
+  const f = 
   ```
 
 ### 3. JSX
