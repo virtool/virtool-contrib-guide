@@ -85,3 +85,41 @@ These online courses will help you understand the basics of the technologies use
    - [Installation](https://yarnpkg.com/en/docs/install)
    - [Usage](https://yarnpkg.com/en/docs/usage)
    
+7. [**SuperAgent**](https://visionmedia.github.io/superagent/)
+
+   Web applications typically communicate between the web browser and the server via HTTP requests and responses. Basic information can be found here:
+
+   - [HTTP Request Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+      - [HTTP Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+      - [HTTP Response Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+              
+   SuperAgent is a client side [AJAX](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started) HTTP request library that is used to request data from Virtool's API.
+   
+   - [Basics](https://visionmedia.github.io/superagent/#request-basics)
+
+   Some aspects of the Virtool's Redux data store are determined by server event-driven responses.
+   
+   - [Websockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
+   
+8. [**Jest**](https://jestjs.io)
+
+   Jest is the testing framework used for the client side. Relevant sections of the docs are:
+   
+   - [Using Matchers](https://jestjs.io/docs/en/using-matchers)
+   - [Expect](https://jestjs.io/docs/en/expect)
+   - [Virtool testing docs](https://www.virtool.ca/docs/developer/testing/)
+   
+9. [**Enzyme**](https://airbnb.io/enzyme/)
+
+   Enzyme is a testing utility that helps test, traverse, simulate events, and format output for React components.
+
+   - [Basic Usage](https://airbnb.io/enzyme/#basic-usage)
+   - [API](https://airbnb.io/enzyme/docs/api/)
+   
+10. [**Sinon**](https://sinonjs.org/)
+
+   Sinon is a testing utility that specializes in spies, mocks, and stubs for Javascript testing. It has more features than what Jest provides, and the relevant docs are:
+   
+   - [General](https://sinonjs.org/releases/v6.1.5/general-setup/)
+   - [Spies](https://sinonjs.org/releases/v6.1.5/spies/)
+   - [Mocks](https://sinonjs.org/releases/v6.1.5/mocks/)
