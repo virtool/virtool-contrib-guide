@@ -93,7 +93,7 @@ These online courses will help you understand the basics of the technologies use
       - [HTTP Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
       - [HTTP Response Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
               
-   SuperAgent is a client side [AJAX](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started) HTTP request library that is used to request data from Vitool's API.
+   SuperAgent is a client side [AJAX](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started) HTTP request library that is used to request data from Virtool's API.
    
    - [Basics](https://visionmedia.github.io/superagent/#request-basics)
 
